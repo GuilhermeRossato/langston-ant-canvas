@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Langton's Ant</title>
+		
+		<link href="./Style/style.css" rel="stylesheet" type="text/css">
+		
+        <script type="text/javascript" src="./Script/BezierFunctions.js"></script>
+        <script type="text/javascript" src="./Script/Timestamper.js"></script>
+        <script type="text/javascript" src="./Script/CanvasUpdater.js"></script>
+        <script type="text/javascript" src="./Script/ZoomControl.js"></script>
+        <script type="text/javascript" src="./Script/PanControl.js"></script>
+        <script type="text/javascript" src="./Script/CellMap.js"></script>
+        <script type="text/javascript" src="./Script/PositionTranslator.js"></script>
+        <script type="text/javascript" src="./Script/ButtonControl.js"></script>
+        <script type="text/javascript" src="./Script/script.js"></script>
+        <script type="text/javascript" src="./Script/setup.js"></script>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" sizes="57x57" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/favicon-16x16.png">
+
+        <link rel="manifest" href="https://cdn.rawgit.com/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="https://cdn.rawgit.com/GuilhermeRossato/Function-Generator/master/icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Langton's Ant</h1>
+		<div>
+			<div id="canvasRecipient" class="recipient"></div>
+		</div>
+		<div class="main"><h3>Options:</h3>
+		<ul>
+			<li>Left click the grid to place a block</li>
+			<li>Right click to place a worker down</li>
+			<li>Right click a worker to rotate it clockwise</li>
+			<li>Mouse wheel for to zoom towards/away from center</li>
+			<li>Use buttons to play/reset/etc the grid</li>
+		</ul>
+</body></html>
